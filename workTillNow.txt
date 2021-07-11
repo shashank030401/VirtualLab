@@ -1,0 +1,22 @@
+Week 1:- 
+
+We Went through all the virtual laboratories of all the premiere institutes and deciden upon an user interface for our site.
+We Designed the wireframe and layed down the foundation of the website. 
+
+Week 2:-
+We decided to desigen the logic gates using CMOS logic family, We did the required research and accquired the required knowledge about the CMOS logic family
+Upon deciding the logic family we started the brainstorm the logic required for the JavaScript code. We finalized the technologies we were going to use for front-end and back-end
+
+Front-End:-
+EJS
+CSS
+Backend:-
+NodeJS
+expressJS
+Database:-
+MongoDB
+
+Week 3:- 
+
+We started to bring the website to life Designed some basic UI of the website such as navbar, footer 
+

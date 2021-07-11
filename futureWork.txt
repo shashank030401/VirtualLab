@@ -1,0 +1,9 @@
+In the upcomming weeks we aim to pace up our work and put the front end togeather, as the front end coded and all the specific routes are well handled 
+we plan to move to the backend and connect the data base to have the user feed back stored. 
+
+As we have only ample time to completely execute one technical experiment, but if we have some more time in our hand we will aim to add an 
+technical blog to our website where students regestred under the electronincs department of the institute can come post something related to core ECE , job notifications etc,
+which would further improve the connections of electronincs students, This Blog can surely be expanded and all the students regestred under this college will able to handle this blog
+
+At the end we want this to be a fully functional virtual lab of this institute. If we get suffiecient time to and some more experiments in the near future we would certainly try and execute,
+we hope that this virtual lab project will be an asset for this institute and we would be grateful to have contributed to our institutes progress.
