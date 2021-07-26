@@ -10,6 +10,16 @@ add.addEventListener("click",handleAdd);
 btn.addEventListener("click",handleSubmit);
 a.addEventListener("click",handleClickA);
 // b.addEventListener("click",handleClickB);
+window.addEventListener("load", () => {
+    value1 = false;
+    // value2 = false;
+    // value3 = false; 
+    if(value1 == false){
+        c.checked = true
+    }else{
+        c.checked = false
+    }
+  });
 function handleClickA(){
 value1 = (a.checked);
 console.log(value1)
@@ -38,10 +48,8 @@ function handleAdd(e){
 
     var cell1 = row.insertCell();
     var cell2 = row.insertCell();
-    var cell3 = row.insertCell();
-    cell1.innerHTML = value1;
-    cell2.innerHTML = b.checked;    
-    cell3.innerHTML = c.checked;    
+    cell1.innerHTML = value1 == true ? 1 : 0;
+    cell2.innerHTML = c.checked == true ? 1: 0; 
 }
 // function handleSubmit(e){
 //     e.preventDefault();

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <title></title>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" type="text/css" href="Vlab.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/Vlab.css">
+   </head>
+   <body>
+<div class="navbar">
+  <div class="btn">
+    <span class="fas fa-bars"></span>
+ </div>
+ <nav class="sidebar">
+    <div class="text">
+    </div>
+    <ul>
+       <li class="active"><a href="/">Home</a></li>
+       <li><a href="/objective">Objective</a></li>
+       <li><a href="/listOfExperiments">List of Experiments</a></li>
+       <li><a href="/feedback">Feedback</a></li>
+    </ul>
+ </nav>
+  <div class="logo">
+    <p>Digital Electronincs Virtual Lab BPPIMT</p>
+  </div>
+</div>
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+           $('.logo').toggleClass("open")
+         }); 
+      </script>
+   </body>
+</html>
+

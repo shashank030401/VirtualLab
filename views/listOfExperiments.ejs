@@ -1,0 +1,15 @@
+<%- include('partials/Header') %>
+<div class="page">
+  <div>
+    <h1>Basic Digital Logic Implementation</h1>
+  </div>
+  <div class="listOfExperiments">
+    <% experiments.forEach(experiment => { %>
+    <div class="button">
+      <a href="/listOfExperiments/<%= experiment %>"><%= experiment %></a>
+    </div>
+    <%})%>
+  </div>
+</div>
+
+<%- include('partials/Footer') %>

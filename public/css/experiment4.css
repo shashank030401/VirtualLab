@@ -62,8 +62,8 @@
   /* Create a custom checkbox */
   .checkmark1 {
     position: absolute;
-    top: 115px;
-    right: 190px;
+    top: 200px;
+    right: 130px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -71,8 +71,8 @@
   
   .checkmark2 {
     position: absolute;
-    top: 185px;
-    right: 190px;
+    top: 310px;
+    right: 130px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -80,8 +80,8 @@
   
   .checkmark3 {
     position: absolute;
-    top: 200px;
-    left: 250px;
+    top: 355px;
+    left: 145px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -213,5 +213,49 @@
     justify-content: center;
   }
   .OR img{
-    width: 600px;
+    width: 450px;
   }
+  table {
+    max-width: 960px;
+    margin: 10px auto;
+  }
+  
+  caption {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+  
+  thead th {
+    font-weight: 400;
+    background: #8a97a0;
+    color: #FFF;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  tr:nth-child(even) {
+    background: #e8eeef;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+  }
+  
+  tfoot tr {
+    background: none;
+  }
+  
+  tfoot td {
+    padding: 10px 2px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #8a97a0;
+  }
+  

@@ -62,8 +62,8 @@
   /* Create a custom checkbox */
   .checkmark1 {
     position: absolute;
-    top: 190px;
-    right: 205px;
+    top: 150px;
+    right: 165px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -71,8 +71,8 @@
   
   .checkmark2 {
     position: absolute;
-    top: 225px;
-    right: 205px;
+    top: 190px;
+    right: 165px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -80,8 +80,8 @@
   
   .checkmark3 {
     position: absolute;
-    top: 280px;
-    left: 199px;
+    top: 213px;
+    left: 140px;
     height: 25px;
     width: 25px;
     background-color: rgb(94, 94, 94);
@@ -213,8 +213,19 @@
     justify-content: center;
   }
   .OR img{
-    width: 550px;
+    width: 450px;
   }
+  /* *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  } */
+  
   table {
     max-width: 960px;
     margin: 10px auto;
